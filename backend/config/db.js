@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 
 const uri = 'mongodb://localhost:27017';
-const dbName = 'portfolioDB';
+const dbName = 'mywebsiteDB';
 
 const connectDB = async () => {
     const client = new MongoClient(uri);
